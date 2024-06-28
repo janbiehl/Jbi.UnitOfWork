@@ -12,7 +12,7 @@
         <License>https://github.com/janbiehl/Jbi.UnitOfWork/blob/main/LICENSE</License>
         <RepositoryUrl>https://github.com/janbiehl/Jbi.UnitOfWork</RepositoryUrl>
         <PackageTags>.net DB UnitOfWork</PackageTags>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
