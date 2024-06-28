@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net6.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Jbi.UnitOfWork</Title>
+        <Authors>J.Biehl</Authors>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <Description>Implements the unit of work pattern in a generic approach that is not tied to any database vendor.</Description>
+        <License>https://github.com/janbiehl/Jbi.UnitOfWork/blob/main/LICENSE</License>
+        <RepositoryUrl>https://github.com/janbiehl/Jbi.UnitOfWork</RepositoryUrl>
+        <PackageTags>.net DB UnitOfWork</PackageTags>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Jbi.UnitOfWork.Abstractions\Jbi.UnitOfWork.Abstractions.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <None Include="readme.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+</Project>
