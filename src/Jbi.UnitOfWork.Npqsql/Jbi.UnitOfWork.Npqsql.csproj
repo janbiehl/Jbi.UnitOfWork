@@ -3,16 +3,17 @@
     <PropertyGroup>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Jbi.UnitOfWork</Title>
         <Authors>J.Biehl</Authors>
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
         <Description>Implements the unit of work pattern in a generic approach that is not tied to any database vendor.</Description>
         <License>https://github.com/janbiehl/Jbi.UnitOfWork/blob/main/LICENSE</License>
         <RepositoryUrl>https://github.com/janbiehl/Jbi.UnitOfWork</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageTags>.net DB UnitOfWork</PackageTags>
-        <Version>1.0.1</Version>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <Version>1.0.2</Version>
     </PropertyGroup>
 
     <ItemGroup>
